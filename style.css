@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bckg_pexels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 39.75rem;
+    height: 29.6875rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 13.4375rem 19.875rem;
+    background-color: lightgrey;
+    border-radius: .625rem;
+    overflow: hidden;
+    box-shadow:  0px 10px 15px -5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow:  0px 10px 18px -5px rgba(0, 0, 0, 0.3);
+}
+
+.join {
+    height: 13.4375rem;
+    padding: 0.7rem 2rem;
+    grid-column: 1/3;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+ .subs {
+    height: 260px;
+    padding: 0.75rem 2rem;
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.monthly {
+    margin-bottom: 1.25rem;
+}
+
+.subs p {
+    color: white;
+    margin-top: .3125rem;
+}
+
+button {
+    background-color:  hsl(71, 73%, 54%);
+    padding: .85rem 1rem;
+    margin-bottom: .625rem;
+    border: none;
+    border-radius: .3125rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow:  0px 15px 20px -10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow:  0px 15px 20px -10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    color: hsl(179, 62%, 43%);
+    background-color: white;
+    transition: 0.3s ease-in;
+    
+}
+
+.why {
+    height: 260px;
+    padding: 0.75rem 2rem;
+    background-color: hsl(179, 45%, 52%);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.why ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    line-height: 1.25rem;
+    font-size: .90rem;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    padding-top: .80rem;
+}
+
+.thirtyday {
+    color:  hsl(71, 73%, 54%);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding-top: .80rem;
+}
+
+.descript{
+    line-height: 1.75rem;
+    padding-bottom: 0.75rem;
+    color: hsl(218, 22%, 67%);
+}
+
+h3 {
+    color: white;
+    font-weight: 700;
+}
+
+.price {
+    color: white;
+    font-size: 1.875rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: .9375rem;
+    font-weight: 400;
+    color: hsl(204, 43%, 93%);
+    padding-left: .75rem;
+}
+
+/* https://www.youtube.com/watch?v=uc_TV2L-79c */
+
+@media screen and (max-width: 31.25rem) {
+    body {
+        height: auto;
+        margin: 1.875rem .625rem;
+        width: 23.75rem;
+    }
+
+    .container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 23.4375rem;
+    }
+
+    .join {
+        height: 18.75rem;
+    }
+}
