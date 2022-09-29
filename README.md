@@ -3,7 +3,7 @@
 <p><strong>Links</strong></p>
 Live Site URL: https://cwbads22.github.io/singlepricegrid/index.html
 <br>
-FrontEnd Mentor: 
+FrontEnd Mentor: https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc
 <br>
 <br>
 <p><strong>My process</strong></p>
